@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+.content{
+    padding: 1rem 2rem;
+    background-color: white;
+    border-radius: .5rem;
+    text-align: center;
+    
+    flex: 0 0 80%;
+}
+#btn{
+    display: block;
+    padding: .5rem 1rem;
+    margin: 1rem auto;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+    background: blue;
+    color: white;
+    border-radius: .5rem;
+}
+#btn:hover{
+    opacity: .7;
+}
+input[type=text]{
+    padding: .5rem;
+    outline: none;
+    border: 1px solid aqua;
+    border-radius: .5rem;
+    box-shadow: 0 0 10px blue;
+    font-size: 1rem;
+}
+#msgOut{
+    margin: 0.5rem 0;
+    color: blue;
+}
+h2{
+    text-transform: uppercase;
+}

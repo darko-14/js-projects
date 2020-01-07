@@ -1,0 +1,36 @@
+body{
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('bcg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    color: black;
+}
+.content{
+    flex: 0 0 80%;
+    text-align: center;
+    border: 1px solid black;
+    padding: 1rem;
+    background-color: lightgrey;
+}
+h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+.counter{
+    font-size: 6rem;
+}
+.btn{
+    width: 100px;
+    padding: 1rem;
+    outline: none;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 1rem;
+    border: 1px solid black;
+    cursor: pointer;
+    
+}
