@@ -33,6 +33,7 @@ sub.addEventListener('click', function(){
 reset.addEventListener('click', function(){
     if(counter.innerHTML !== '0'){
         counter.innerHTML = '0'
+        count = 0
         counter.style.color = 'black'
     }
     counter.animate([{opacity:'0'},{opacity: '1'}],
